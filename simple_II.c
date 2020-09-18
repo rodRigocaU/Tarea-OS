@@ -6,7 +6,7 @@
 #include <asm/param.h>.
 //#include <linux/gcd.h>
 
-//LO COMPILO CON EL COMANDO "MAKE" DENTRO DE LA TERMINAL
+//LO COMPILO CON EL COMANDO "MAKE" EN LA TERMINAL PONIENDO "obj-m += simple_II.o" EN EL ARCHIVO DE MAKEFILES (SOLO CAMBIANDO LA PRIMERA LINEA)
 //PROFESOR EL GCD NO ME FUNCIONABA POR ESO TRATE DE HACER DE ESTA MANERA
 unsigned long gcd(unsigned long a, unsigned long b)
 {
