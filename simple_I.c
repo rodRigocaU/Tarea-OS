@@ -2,7 +2,7 @@
 #include <linux/module.h>
 #include <linux/kernel.h>
 
-//PARA COMPILAR SOLO LE HAGO EL "MAKE" DENTRO DE LA TERMINAL
+//LO COMPILO CON EL COMANDO "MAKE" EN LA TERMINAL PONIENDO "obj-m += simple_I.o" EN EL ARCHIVO DE MAKEFILES (SOLO CAMBIANDO LA PRIMERA LINEA)
 
 int simple_init(void)
 {
