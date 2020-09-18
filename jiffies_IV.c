@@ -10,6 +10,8 @@
 #define PROC_NAME "jiffies"
 //#define MESSAGE "Hello World\n"
 
+//LO COMPILO CON EL COMANDO "MAKE" EN LA TERMINAL PONIENDO "obj-m += jiffies_IV.o" en el archivo makefiles
+
 ssize_t proc_read(struct file *file, char *buf, size_t count, loff_t *pos);
 
 static struct file_operations proc_ops = {
