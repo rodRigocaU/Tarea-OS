@@ -10,7 +10,7 @@
 #define MESSAGE "Hello World\n"
 
 
-//LO COMPILO CON EL COMANDO "MAKE" EN LA TERMINAL PONIENDO "obj-m += hello.o"
+//LO COMPILO CON EL COMANDO "MAKE" EN LA TERMINAL PONIENDO "obj-m += hello_III.o" EN EL ARCHIVO DE MAKEFILES (SOLO CAMBIANDO LA PRIMERA LINEA)
 ssize_t proc_read(struct file *file, char *buf, size_t count, loff_t *pos);
 
 static struct file_operations proc_ops = {
