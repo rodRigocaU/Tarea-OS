@@ -27,9 +27,11 @@ unsigned long gcd(unsigned long a, unsigned long b)
 int simple_init(void)
 {
        printk(KERN_INFO "Loading Module de simple\n");
+	//PARA VER EL GOLDEN_RATION_PRIME
        printk(KERN_INFO "%lu\n", GOLDEN_RATIO_PRIME);
-       printk("Current jiffies: %lu.n", jiffies);
-       printk("Current HZ: %lu.n", HZ);
+       //PARA VER LOS JIFFIES Y HZ
+       //printk("Current jiffies: %lu.n", jiffies);
+       //printk("Current HZ: %lu.n", HZ);
 
        return 0;
 }
@@ -38,8 +40,10 @@ int simple_init(void)
 void simple_exit(void) {
        unsigned long r = gcd(3300,24);
 	printk(KERN_INFO "Removing Module de simple\n");
-       printk(KERN_INFO "%lu\n", r);
-       printk("Current jiffies: %lu.n", jiffies);
+       //PARA VER el gcd
+	printk(KERN_INFO "%lu\n", r);
+       //PARA VER LOS JIFFIES
+       //printk("Current jiffies: %lu.n", jiffies);
 }
 
 module_init( simple_init );
