@@ -6,6 +6,7 @@
 #include <asm/param.h>.
 //#include <linux/gcd.h>
 
+//LO COMPILO CON EL COMANDO "MAKE" DENTRO DE LA TERMINAL
 //PROFESOR EL GCD NO ME FUNCIONABA POR ESO TRATE DE HACER DE ESTA MANERA
 unsigned long gcd(unsigned long a, unsigned long b)
 {
